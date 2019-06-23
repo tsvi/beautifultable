@@ -128,6 +128,14 @@ Changelog
 **************************************************************************
 
 ==========
+Unreleased
+==========
+
+* Dropped support for Python 3.3
+* Alignment and padding can now be set for all columns using a simplified syntax like
+  ``table.column_alignments = beautifultable.ALIGN_LEFT``
+
+==========
 v0.7.0
 ==========
 
