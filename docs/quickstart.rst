@@ -384,7 +384,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_DEFAULT)
+     >>> table.set_style(beautifultable.STYLE_DEFAULT)
      >>> print(table)
      +----------+------+--------+
      |   name   | rank | gender |
@@ -404,7 +404,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_NONE)
+     >>> table.set_style(beautifultable.STYLE_NONE)
      >>> print(table)
         name    rank  gender
        Jacob     1     boy
@@ -417,7 +417,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_DOTTED)
+     >>> table.set_style(beautifultable.STYLE_DOTTED)
      >>> print(table)
      ............................
      :   name   : rank : gender :
@@ -433,7 +433,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_SEPARATED)
+     >>> table.set_style(beautifultable.STYLE_SEPARATED)
      >>> print(table)
      +==========+======+========+
      |   name   | rank | gender |
@@ -453,7 +453,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_COMPACT)
+     >>> table.set_style(beautifultable.STYLE_COMPACT)
      >>> print(table)
         name     rank   gender
      ---------- ------ --------
@@ -467,7 +467,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_MYSQL)
+     >>> table.set_style(beautifultable.STYLE_MYSQL)
      >>> print(table)  # Yes, the default style is same as this style
      +----------+------+--------+
      |   name   | rank | gender |
@@ -487,7 +487,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_MARKDOWN)
+     >>> table.set_style(beautifultable.STYLE_MARKDOWN)
      >>> print(table)  # Markdown alignment not supported currently
      |   name   | rank | gender |
      |----------|------|--------|
@@ -501,7 +501,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_RST)
+     >>> table.set_style(beautifultable.STYLE_RST)
      >>> print(table)
      ========== ====== ========
         name     rank   gender
@@ -517,7 +517,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_BOX)
+     >>> table.set_style(beautifultable.STYLE_BOX)
      >>> print(table)
      ┌──────────┬──────┬────────┐
      │   name   │ rank │ gender │
@@ -537,7 +537,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_BOX_DOUBLED)
+     >>> table.set_style(beautifultable.STYLE_BOX_DOUBLED)
      >>> print(table)
      ╔══════════╦══════╦════════╗
      ║   name   ║ rank ║ gender ║
@@ -557,7 +557,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_BOX_ROUNDED)
+     >>> table.set_style(beautifultable.STYLE_BOX_ROUNDED)
      >>> print(table)
      ╭──────────┬──────┬────────╮
      │   name   │ rank │ gender │
@@ -577,7 +577,7 @@ of the table. The following styles are available:
 
   .. code:: python
 
-     >>> table.set_style(BeautifulTable.STYLE_GRID)
+     >>> table.set_style(beautifultable.STYLE_GRID)
      >>> print(table)
      ╔══════════╤══════╤════════╗
      ║   name   │ rank │ gender ║
@@ -599,7 +599,7 @@ this feature. You can read the API Reference for more details.
 
 .. code:: python
 
-   >>> table.set_style(BeautifulTable.STYLE_NONE)  # clear all formatting
+   >>> table.set_style(beautifultable.STYLE_NONE)  # clear all formatting
    >>> table.left_border_char = 'o'
    >>> table.right_border_char = 'o'
    >>> table.top_border_char = '<~>'
