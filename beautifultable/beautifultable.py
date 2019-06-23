@@ -586,14 +586,14 @@ class BeautifulTable(object):
 
             It can be one of the following:
 
-            * beautifulTable.STYLE_DEFAULT
+            * beautifultable.STYLE_DEFAULT
             * beautifultable.STYLE_NONE
-            * beautifulTable.STYLE_DOTTED
-            * beautifulTable.STYLE_MYSQL
-            * beautifulTable.STYLE_SEPARATED
-            * beautifulTable.STYLE_COMPACT
-            * beautifulTable.STYLE_MARKDOWN
-            * beautifulTable.STYLE_RESTRUCTURED_TEXT
+            * beautifultable.STYLE_DOTTED
+            * beautifultable.STYLE_MYSQL
+            * beautifultable.STYLE_SEPARATED
+            * beautifultable.STYLE_COMPACT
+            * beautifultable.STYLE_MARKDOWN
+            * beautifultable.STYLE_RESTRUCTURED_TEXT
             * beautifultable.STYLE_BOX
             * beautifultable.STYLE_BOX_DOUBLED
             * beautifultable.STYLE_BOX_ROUNDED
